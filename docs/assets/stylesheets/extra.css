@@ -1,0 +1,10 @@
+/* :root > * {
+    --md-primary-fg-color:        #c00031;
+    --md-primary-fg-color--light: #ECB7B7;
+    --md-primary-fg-color--dark:  #90030C;
+  } */
+
+/* make the site title in drawer menu fit without being truncated */
+.md-nav--primary .md-nav__title[for="__drawer"] {
+    font-size: .7rem
+}
