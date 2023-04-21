@@ -46,8 +46,7 @@
     .tx-hero .md-button {
         margin-top: .5rem;
         margin-right: .5rem;
-        color: var(--md-primary-bg-color)
-    }
+        color: var(--md-primary-bg-color);    }
 
     .tx-hero .md-button--primary {
         background-color: var(--md-primary-bg-color);
@@ -228,7 +227,8 @@
           <img src="assets/homeLogo.svg" draggable="false">
           <!-- <h1> River City Rainbow Collective </h1> -->
           <p>Be the support you wish to receive</p>
-          <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | striptags }}" class="md-button md-button--primary">
+          <!-- <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | striptags }}" class="md-button md-button--primary"> -->
+          <a href="/welcome" title="{{ page.next_page.title | striptags }}" class="md-button md-button--primary">
             Let's Get Started 🌈
           </a>
         </div>
@@ -238,5 +238,5 @@
 
 
 {% endblock %}
-<!-- {% block content %}{% endblock %} -->
-<!-- {% block footer %}{% endblock %} -->
+{% block content %}{% endblock %}
+{% block footer %}{% endblock %}

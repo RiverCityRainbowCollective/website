@@ -19,6 +19,11 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
 extra_css:
   - assets/stylesheets/extra.css
 plugins:
@@ -26,7 +31,4 @@ plugins:
 markdown_extensions:
   - attr_list
   - md_in_html
-## Page tree
-nav:
-  - Home: index.md
-  - Getting Started: welcome.md
+  
