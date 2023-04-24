@@ -2,7 +2,7 @@ site_name: River City Rainbow Collective
 theme:
   name: material
   logo: assets/logo.svg
-  # favicon: images/favicon.png
+  favicon: assets/favicon.ico
   custom_dir: docs/theme_overrides/
   palette:
     # Palette toggle for light mode
