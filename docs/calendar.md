@@ -10,7 +10,7 @@ hide:
 <script async type="module" src="https://embed.styledcalendar.com/assets/parent-window.js"></script>
 </div>
 
-### How to Submit Your Event to Our Community Calendar
+## How to Submit Your Event to Our Community Calendar
 
 To ensure your event is accurately listed on our community calendar, please follow the process below for submitting a calendar invite. This method helps us streamline event postings and maintain the integrity of our calendar, avoiding the need for manual entry that comes with regular email submissions.
 
