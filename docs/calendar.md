@@ -32,7 +32,7 @@ To ensure your event is accurately listed on our community calendar, please foll
 
 - **Do Not Send Regular Emails:** Please refrain from sending event details through regular email. Events must be submitted as calendar invites to be considered for inclusion in our community calendar.
 - **Updating Event Details:** If any event details change after you've submitted your calendar invite, please update the event in your calendar app and ensure the updated invite is sent to our submission email address.
-- **First Time Calendar Invites** If this is the first time you have sent a calendar invitation, it will need to be manually accepted by site administrators before it will show up on the calendar. Once accepted, all future invites will be automatically accepted. 
+- **First Time Calendar Invites:** If this is the first time you have sent a calendar invitation, it will need to be manually accepted by site administrators before it will show up on the calendar. Once accepted, all future invites will be automatically accepted. 
 
     
 
