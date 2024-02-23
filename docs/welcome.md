@@ -5,23 +5,32 @@ authors:
     - Sage Peterson
 date: 2023-04-20
 ---
-River City Rainbow Collective is a grassroots support community, created by/for the LGBTQIA+ community of Central Illinois. 
 
-## Mission
-1. 🏳️‍🌈 Bring like-minded LGBTQIA+ people together, connect with each other more easily, and to support each other as family.
+# Welcome to the River City Rainbow Collective 🏳️‍🌈
 
-2. 💻 Build an online resource directory of safe places and services in the Central IL area.
+**We're a vibrant grassroots community in Central Illinois, crafted with love for LGBTQIA+ folks, by LGBTQIA+ folks. Whether you’re here for friendship, support, or resources, you've found a space that celebrates you.**
 
-## Community Guidelines
-This community is built on radical inclusion and respect. By joining the Discord server above, you are agreeing to act in accordance of this [Community's Code of Conduct](https://docs.google.com/document/d/1awLJuynv3JQL1heQZD68vdH7pKrl07bxmRv9hWzwdOQ/edit?usp=sharing).
+## Our Mission of Love and Pride
 
-Allies are welcome; stay respectful and stay in your lane.
+- **Community Connection:** Our goal is to weave a tapestry of LGBTQIA+ lives, connecting us closer, supporting each other, and growing our family. You belong here.
+- **Safe Spaces Directory:** We're putting together an essential guide of LGBTQIA+-affirming places and services across Central Illinois. Your go-to for navigating our community safely and joyfully.
 
-## Getting Started
-If this resonates with you, then welcome friend! Your next step is to
+## Be Part of Our Community 🌟
 
-[✨Join the Rainbow Collective✨](https://discord.gg/wUKaWazEn6#){ .md-button .md-button--primary }
+### Our Foundations:
+- **Inclusion & Respect:** By joining us, you’re agreeing to a culture of love and respect as outlined in our [Community's Code of Conduct](https://docs.google.com/document/d/1awLJuynv3JQL1heQZD68vdH7pKrl07bxmRv9hWzwdOQ/edit?usp=sharing). Let's cherish and uplift each other.
+- **Allies Welcome:** Your support means the world. Come with respect, and join us in making space for all voices to be heard.
 
-The majority of this community's interactions will happen online in the above Discord server.
+### How to Get Involved:
+Eager to be part of our collective? 
 
-Soon, we'll start scheduling in-person meetups around the area to support local LGBTQIA+ safe businesses and to squeeze some of that precious face-time in with each other!
+[✨Join Us✨](https://discord.gg/wUKaWazEn6#){ .md-button .md-button--primary }
+
+and dive into a community where every day is a chance to share, support, and celebrate our lives.
+
+### Gatherings:
+While we thrive online, nothing matches the warmth of gathering in person. We host monthly meetups to support LGBTQIA+ friendly businesses and to enjoy the irreplaceable joy of community.
+
+---
+
+**Join us, friend, and let’s make Central Illinois a little brighter, together. 🌈**
