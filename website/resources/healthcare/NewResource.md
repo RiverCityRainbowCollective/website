@@ -2,7 +2,7 @@
 title: Central Ilinois Friends
 description: They have a community center!
 published: true
-date: 2025-01-23T23:31:56.162Z
+date: 2025-01-23T23:35:09.513Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-23T21:29:43.770Z
@@ -11,7 +11,7 @@ dateCreated: 2025-01-23T21:29:43.770Z
 # Central Illinois Friends
 
 ## Contact
-☎️ 309-671-8484
+☎️ 309-671-2144
 
 📍 Peoria, Illinois: 120 NE Glen Oak Ave. Suite 201, Peoria, IL 61603
 
@@ -19,6 +19,7 @@ dateCreated: 2025-01-23T21:29:43.770Z
 
 📍 Galesburg, Illinois: 311 E Main St. Suite 409, Galesburg, IL 61401
 
+ 📧 [outreach@centralillinoisfriends.org](mailto:outreach@centralillinoisfriends.org)
 
 🌐 [website](https://www.friendsofcentralillinois.org/)
 
