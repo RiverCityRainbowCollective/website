@@ -2,7 +2,7 @@
 title: Central Ilinois Friends
 description: They have a community center!
 published: true
-date: 2025-01-23T23:35:09.513Z
+date: 2025-01-23T23:56:09.300Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-23T21:29:43.770Z
@@ -21,7 +21,7 @@ dateCreated: 2025-01-23T21:29:43.770Z
 
  📧 [outreach@centralillinoisfriends.org](mailto:outreach@centralillinoisfriends.org)
 
-🌐 [website](https://www.friendsofcentralillinois.org/)
+🌐 [https://www.friendsofcentralillinois.org/](https://www.friendsofcentralillinois.org/)
 
 ## About
 
