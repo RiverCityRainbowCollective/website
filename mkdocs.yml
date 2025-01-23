@@ -4,7 +4,7 @@ theme:
   name: material
   logo: assets/logo.svg
   favicon: assets/favicon.ico
-  custom_dir: docs/theme_overrides/
+  custom_dir: website/theme_overrides/
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
