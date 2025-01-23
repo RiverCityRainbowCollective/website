@@ -1,4 +1,5 @@
 site_name: River City Rainbow Collective
+docs_dir: website
 theme:
   name: material
   logo: assets/logo.svg
