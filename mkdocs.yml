@@ -21,10 +21,11 @@ theme:
         icon: material/weather-night
         name: Switch to light mode
   features:
-    - navigation.instant
+    # - navigation.instant
     - navigation.tabs
     - navigation.sections
     - toc.integrate
+    - navigation.tracking
 extra_css:
   - assets/stylesheets/extra.css
 plugins:
