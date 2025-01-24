@@ -2,7 +2,7 @@
 title: Central Ilinois Friends
 description: They have a community center!
 published: true
-date: 2025-01-23T23:56:09.300Z
+date: 2025-01-24T00:17:31.655Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-23T21:29:43.770Z
