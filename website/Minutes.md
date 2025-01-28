@@ -6,6 +6,9 @@ date: 2025-01-28T17:13:28.916Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-28T17:13:28.916Z
+hide:
+  - navigation
+  - toc
 ---
 
 # Meeting Minutes
