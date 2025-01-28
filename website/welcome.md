@@ -4,6 +4,9 @@ summary: Welcome to the River City Rainbow Collective.
 authors:
     - Sage Peterson
 date: 2023-04-20
+hide:
+  - navigation
+  - toc
 ---
 
 # Welcome to the River City Rainbow Collective 🏳️‍🌈
