@@ -6,6 +6,9 @@ date: 2025-02-11T20:57:54.991Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-23T16:26:52.387Z
+hide:
+  - navigation
+  - toc
 ---
 
 # RC² Community Calendar

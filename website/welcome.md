@@ -6,6 +6,9 @@ date: 2025-02-11T20:58:01.937Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-23T16:26:56.588Z
+hide:
+  - navigation
+  - toc
 ---
 
 # Welcome to the River City Rainbow Collective 🏳️‍🌈
