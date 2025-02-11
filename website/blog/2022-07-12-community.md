@@ -1,3 +1,13 @@
+---
+title: 2022-07-12-community
+description: 
+published: true
+date: 2025-02-11T20:58:46.110Z
+tags: 
+editor: markdown
+dateCreated: 2025-01-23T16:27:05.212Z
+---
+
 # The Need for Community
 River City Rainbow Collective is my attempt at building an inclusive and supportive LGBTQIA+ community in the Central Illinois area. After experiencing what a truly supportive community feels like, both online and in-person, it made me question if that kind of community existed here already. I spent a couple weeks hanging out around facebook (🤢) and analyzing the community landscape there. After getting a grasp on what was currently available to LGBTQIA+ people, I decided that what I'm looking for doesn't exist yet.
  

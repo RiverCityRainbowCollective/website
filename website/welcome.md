@@ -1,12 +1,11 @@
 ---
 title: Welcome
-summary: Welcome to the River City Rainbow Collective.
-authors:
-    - Sage Peterson
-date: 2023-04-20
-hide:
-  - navigation
-  - toc
+description: 
+published: true
+date: 2025-02-11T20:58:01.937Z
+tags: 
+editor: markdown
+dateCreated: 2025-01-23T16:26:56.588Z
 ---
 
 # Welcome to the River City Rainbow Collective 🏳️‍🌈

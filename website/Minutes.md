@@ -2,7 +2,7 @@
 title: Minutes
 description: 
 published: true
-date: 2025-02-11T20:59:10.217Z
+date: 2025-02-11T20:59:16.763Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-28T17:13:28.916Z
