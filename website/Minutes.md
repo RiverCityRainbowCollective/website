@@ -24,6 +24,4 @@ If you would like to view our meeting minutes, they are available at the link be
 
 
 ## Agendas
-If you would like to view an upcoming meeting agenda, they are available at the link below.
-
-[📃Collective Congress Agendas](https://drive.google.com/drive/folders/1ur4MaY6DOjLO6dPA683UO92kToBuY3TO?usp=sharing){ .md-button .md-button--primary }
+Agendas are just Meeting Minutes waiting to happen. Our agendas are located in the Minutes folder above as future dated Minutes.
