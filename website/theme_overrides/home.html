@@ -16,8 +16,9 @@ dateCreated: 2025-01-23T16:27:09.531Z
 <style>
 
     .md-main {
-        /* flex-grow: 0 */
-        display: none;
+        height: 0;
+        min-height: 0;
+        overflow: hidden;
     }
 
     .md-main__inner {
@@ -27,7 +28,7 @@ dateCreated: 2025-01-23T16:27:09.531Z
 
     .tx-container {
         padding-top: .0rem;
-        background: linear-gradient(to bottom, var(--md-primary-fg-color), hsla(160deg,47%,55%,1));
+        background: linear-gradient(to bottom, var(--md-primary-fg-color), var(--rc2-home-gradient-target));
         min-height: 100vh;  /* This ensures it fills the entire viewport height */
     }
 
@@ -228,6 +229,21 @@ dateCreated: 2025-01-23T16:27:09.531Z
     }
 </style>
 
+<!-- Emergency Exit Button -->
+<button onclick="emergencyExit()" class="emergency-button" id="emergency-exit" title="No tea, no shade, just fade">
+    Safety Exit
+</button>
+
+<script>
+function emergencyExit() {
+    // Navigate to Google on current tab
+    window.location.href = 'https://www.google.com';
+    
+    // Open Google in a new tab
+    window.open('https://www.google.com', '_blank');
+}
+</script>
+
 <!-- Main site Entry button descriptions -->
 <section class="tx-container">
     <div class="md-grid md-typeset">
@@ -247,7 +263,6 @@ dateCreated: 2025-01-23T16:27:09.531Z
       </div>
     </div>
 </section>
-
 
 {% endblock %}
 {% block content %}{% endblock %}
