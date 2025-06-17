@@ -8,7 +8,7 @@ theme:
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
-      scheme: default
+      scheme: rc2-theme
       primary: purple
       # toggle:
       #   icon: material/weather-sunny

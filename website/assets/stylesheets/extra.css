@@ -8,3 +8,10 @@
 .md-nav--primary .md-nav__title[for="__drawer"] {
     font-size: .7rem
 }
+
+[data-md-color-scheme="rc2-theme"] {
+  --md-primary-fg-color:        #8e6fc9;
+  --md-primary-fg-color--light: #FED2E2;
+  --md-default-bg-color: #ffe2ed;
+  /* --md-primary-fg-color--dark:  #90030C; */
+}
