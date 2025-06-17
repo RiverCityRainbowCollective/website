@@ -34,7 +34,7 @@ def main(base_url: str, token_id: str, token_secret: str, shelf_slug: str) -> Di
 
      # Create new content
     print("Creating content files...")
-    create_content_files(shelf_contents, resource_path)
+    create_content_files(shelf_contents, resource_path, base_url)
 
     return {
         'shelf_id': shelf_contents.id,
@@ -53,6 +53,6 @@ if __name__ == "__main__":
     
     try:
         result = main(BASE_URL, TOKEN_ID, TOKEN_SECRET, SHELF_SLUG)
-        print(f"Retrieved shelf contents: {result}")
+        # print(f"Retrieved shelf contents: {result}")
     except (BookStackAPIError, ValueError) as e:
         print(f"Error: {str(e)}")

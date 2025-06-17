@@ -8,20 +8,20 @@ theme:
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
-      schem: default
+      scheme: default
       primary: purple
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to dark mode
+      # toggle:
+      #   icon: material/weather-sunny
+      #   name: Switch to dark mode
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: purple
-      toggle:
-        icon: material/weather-night
-        name: Switch to light mode
+      # toggle:
+      #   icon: material/weather-night
+      #   name: Switch to light mode
   features:
-    # - navigation.instant
+    - navigation.instant
     - navigation.tabs
     - navigation.sections
     - toc.integrate
