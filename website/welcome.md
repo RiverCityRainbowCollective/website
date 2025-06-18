@@ -13,29 +13,26 @@ hide:
 
 # Welcome to the River City Rainbow Collective 🏳️‍🌈
 
-**We're a vibrant grassroots community in Central Illinois, crafted with love for LGBTQIA+ folks, by LGBTQIA+ folks. Whether you’re here for friendship, support, or resources, you've found a space that celebrates you.**
+**We're a community in Central Illinois made by and for LGBTQIA+ people. This is your space to find friends, help, and resources.**
 
-## Our Mission of Love and Pride
+## What We Do
 
-- **Community Connection:** Our goal is to weave a tapestry of LGBTQIA+ lives, connecting us closer, supporting each other, and growing our family. You belong here.
-- **Safe Spaces Directory:** We're putting together an essential guide of LGBTQIA+-affirming places and services across Central Illinois. Your go-to for navigating our community safely and joyfully.
+- **Build Community:** We bring LGBTQIA+ people together to support each other. You belong here!
+- **Find Safe Spaces:** We work together to build a list of LGBTQIA+-friendly places and services in Central Illinois.
 
-## Be Part of Our Community 🌟
+## Join Us 🌟
 
-### Our Foundations:
-- **Inclusion & Respect:** By joining us, you’re agreeing to a culture of love and respect as outlined in our [Community's Code of Conduct](https://docs.google.com/document/d/1awLJuynv3JQL1heQZD68vdH7pKrl07bxmRv9hWzwdOQ/edit?usp=sharing). Let's cherish and uplift each other.
-- **Allies Welcome:** Your support means the world. Come with respect, and join us in making space for all voices to be heard.
+### Our Values:
+- **Be Kind:** We treat everyone with respect. Check out our [Community Rules](https://docs.google.com/document/d/1awLJuynv3JQL1heQZD68vdH7pKrl07bxmRv9hWzwdOQ/edit?usp=sharing).
+- **Allies:** We welcome supporters who respect our space.
 
-### How to Get Involved:
-Eager to be part of our collective? 
+### Ready to Join? 
 
-[✨Join Us✨](https://discord.gg/wUKaWazEn6#){ .md-button .md-button--primary }
+[✨Join Our Discord✨](https://discord.gg/wUKaWazEn6#){ .md-button .md-button--primary }
 
-and dive into a community where every day is a chance to share, support, and celebrate our lives.
-
-### Gatherings:
-While we thrive online, nothing matches the warmth of gathering in person. We host monthly meetups to support LGBTQIA+ friendly businesses and to enjoy the irreplaceable joy of community.
+### Meet Up:
+We get together twice every month at our local LGBTQIA Community Center. We talk about what's going on and what we can do to help each other and our community. Come hang out with us in person! (Hint: Check out the Calendar for `Collective Congress`)
 
 ---
 
-**Join us, friend, and let’s make Central Illinois a little brighter, together. 🌈**
+**Let's make Central Illinois better, together! 🌈**
