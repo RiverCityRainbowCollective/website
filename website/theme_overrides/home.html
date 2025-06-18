@@ -8,6 +8,9 @@ description: Welcome to the River City Rainbow Collective!
 <!-- Custom HTML site displayed as the Home chapter -->
 
 {% extends "base.html" %}
+{% block extrahead %}
+  <meta name="description" content="Welcome to the River City Rainbow Collective!">
+{% endblock %}
 {% block tabs %}
 {{ super() }}
 <style>
