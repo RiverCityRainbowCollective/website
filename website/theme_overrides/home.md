@@ -1,9 +1,7 @@
-<!--
 ---
 title: Home
 description: Welcome to the River City Rainbow Collective!
 ---
--->
 
 <!-- Custom HTML site displayed as the Home chapter -->
 
