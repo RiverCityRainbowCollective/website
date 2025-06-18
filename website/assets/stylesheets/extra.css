@@ -1,10 +1,489 @@
-/* :root > * {
-    --md-primary-fg-color:        #c00031;
-    --md-primary-fg-color--light: #ECB7B7;
-    --md-primary-fg-color--dark:  #90030C;
-  } */
-
 /* make the site title in drawer menu fit without being truncated */
 .md-nav--primary .md-nav__title[for="__drawer"] {
     font-size: .7rem
+}
+
+/* Center title in mobile navigation */
+.md-nav__title[for="__drawer"] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0rem;
+}
+
+/* Center logo container in mobile navigation */
+.md-nav__title[for="__drawer"] .md-nav__button.md-logo {
+  position: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  margin: 0 auto;
+}
+
+/* Adjust logo image in mobile navigation */
+.md-nav__title[for="__drawer"] .md-nav__button.md-logo img {
+  height: 64px;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 0.3rem;
+}
+
+/* Hide navigation title in desktop mode */
+@media screen and (min-width: 76.25em) {
+  .md-nav__title[for="__drawer"] {
+      display: none;
+  }
+}
+
+/* Underline active navigation link */
+.md-nav__link .md-nav__link--active {
+  color: var(--rc2-mobile-nav-item-color);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 5px;
+}
+
+/* Default link hover */
+.md-content a:hover {
+  color: var(--md-primary-fg-color);
+}
+
+/* nav link hover */
+.md-nav__link:hover {
+  color: var(--md-primary-fg-color) !important;
+}
+
+/* primary button hover */
+.md-button.md-button--primary:hover {
+  background-color: var(--rc2-mobile-nav-item-color) !important;
+  color: var(--md-primary-bg-color) !important;
+  border-color: var(--rc2-mobile-nav-item-color)
+}
+
+/* primary button focus */
+.md-button--primary:focus {
+  background-color: var(--rc2-home-gradient-target) !important;
+  color: #000000 !important;
+  border-color: var(--rc2-home-gradient-target)!important;
+}
+
+[data-md-color-scheme="rc2-theme"] {
+  --md-primary-fg-color:        #AA60C8;
+  --md-primary-bg-color:        #ffffff;
+  --md-primary-fg-color--light: #ffffff;
+  --md-default-fg-color--light: #000000;  
+  --md-default-bg-color:        #fce7f2;
+  --rc2-home-gradient-target:   #73C7C7;
+  --rc2-mobile-nav-item-color:  #7c2c9c;
+  --rc2-text-highlight:         #97ffff;
+  
+
+  /* header menu navigation items */
+  .md-tabs__item--active .md-tabs__link {
+    color: inherit;
+    opacity: 1;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
+  }
+
+  .md-nav__item .md-nav__link--active {
+    color: var(--rc2-mobile-nav-item-color);
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
+  }  
+
+  /* Mobile navigation menu */
+  @media screen and (max-width: 76.2em) {
+    
+    /* mobile nav title */
+    .md-nav--primary .md-nav__title {
+      background-color: var(--md-primary-fg-color);
+      color: var(--md-primary-bg-color);
+      cursor: pointer;
+      height: 5.6rem;
+      line-height: 2.4rem;
+      padding: 3rem .8rem .2rem;
+      position: relative;
+      white-space: nowrap;
+    }
+
+    /* mobile nav items */
+    .md-nav--primary .md-nav__item--active > .md-nav__link {
+      color: var(--rc2-mobile-nav-item-color);
+      text-decoration: underline;
+      text-decoration-thickness: 2px;
+      text-underline-offset: 5px;
+    }
+  }
+
+  /*code tags `like this` */
+  .md-typeset code {
+    background-color: #eec6fe;
+    color: #000000;
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+    font-size: 0.9em;
+    border: 1px solid #e1e1e1;
+  }
+
+  /* Style the summary (clickable part of dropdown) */
+  .md-typeset summary {
+    background-color: #eec6fe5b;
+    border: none;
+    border-left-width: medium;
+    font-weight: 700;
+    margin: 0 -.6rem;
+    padding-bottom: .4rem;
+    padding-top: .4rem;
+    position: relative;
+  }
+  /* change color of summary icon (dropdown)  */
+  .md-typeset summary::before {
+    background-color: var(--md-primary-fg-color);  /* Your theme's purple color */
+  }
+
+  /* Style the details container (dropdown) */
+  .md-typeset details {
+    background-color: #f9ebff;
+    border: .075rem solid var(--md-primary-fg-color);
+    border-radius: .2rem;
+    box-shadow: var(--md-shadow-z1);
+    color: var(--md-admonition-fg-color);
+    display: flow-root;
+    font-size: .64rem;
+    margin: 1.5625em 0;
+    padding: 0 .6rem;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    page-break-inside: avoid;
+    transition: box-shadow 125ms;
+  }
+
+  /* Tables that are not aligned */
+  .md-typeset table:not([class]) td:not([align]) {
+    text-align: center;
+  }
+
+  /* Tables */
+  .md-typeset table:not([class]) td {
+    padding: .9375em 1.25em;
+    vertical-align: top;
+  }
+
+  /* Table styling with rounded corners and better spacing */
+  .md-typeset table:not([class]) {
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 15px;
+    overflow: hidden;  /* This ensures the rounded corners show */
+    border: none;
+    box-shadow: 0 2px 4px rg  ba(0,0,0,0.05);  /* Subtle shadow */
+    width: auto;  /* Let table size to content */
+    min-width: 50%;  /* Ensure table has a minimum width */
+  }
+
+  /* Tables - Make cells fit their content */
+  .md-typeset table:not([class]) th,
+  .md-typeset table:not([class]) td {
+    white-space: nowrap;  /* Prevent text wrapping */
+    width: auto;  /* Let cells size to content */
+  }
+
+  /* Tables - Header cells */
+  .md-typeset table:not([class]) thead tr {
+    background-color: var(--md-primary-fg-color);
+    color: white;
+    padding: 1rem 1.25em;
+    font-weight: 600;
+    border: none;
+    
+  }
+  .md-typeset table:not([class]) thead td {
+    font-weight: 600;
+  }
+
+
+  /* Tables - Regular cells */
+  .md-typeset table:not([class]) td {
+    /* border-top: 0rem solid var(--md-typeset-table-color); */
+    padding: 0.75rem 1em;
+    vertical-align: middle;  /* Changed from top to middle */
+    text-align: center;
+  }
+
+  /* Tables - Zebra striping for better readability */
+  .md-typeset table:not([class]) tbody tr:nth-child(odd) {
+    background-color: #f6deff;
+  }
+
+  /* Tables - Zebra striping for better readability */
+  .md-typeset table:not([class]) tbody tr:nth-child(even) {
+    background-color: #fcf4ff;
+  }
+
+  /* Add border to the whole table body instead */
+  .md-typeset table:not([class]) tbody {
+    border: 1px solid var(--md-typeset-table-color);
+  }
+
+  /* Hover effect on rows */
+  .md-typeset table:not([class]) tbody tr:hover {
+    background-color: #97ffff;
+  }
+
+  /* Highlighted text */
+  ::selection {
+    background-color: var(--rc2-text-highlight);  /* Your purple brand color */
+    color: #000000;
+  }
+  /* Highlighted text for browser compatibility */
+  ::-moz-selection {
+    background-color: var(--rc2-text-highlight);
+    color: #000000;
+  }
+}
+
+#emergency-exit {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 100;
+  background-color: var(--md-primary-fg-color);
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  transition: background-color 0.3s ease;
+  pointer-events: auto;
+}
+
+#emergency-exit:focus,
+#emergency-exit:hover {
+  background-color: #ff0000;
+}
+
+/* ----------- Home.html css -------------*/
+
+.tx-container {
+  padding-top: .0rem;
+  background: linear-gradient(to bottom, var(--md-primary-fg-color), var(--rc2-home-gradient-target));
+  min-height: 100vh;  /* This ensures it fills the entire viewport height */
+}
+
+.tx-hero {
+  margin: 32px 2.8rem;
+  color: var(--md-primary-bg-color);
+  justify-content: center;
+}
+
+.tx-hero h1 {
+  margin-bottom: 1rem;
+  color: currentColor;
+  font-weight: 700
+}
+
+.tx-hero__image{
+  width:17rem;
+  height:17rem;
+  order:1;
+  padding-right: 2.5rem;
+}
+
+/* Button styling */
+.tx-hero .md-button {
+  display: inline-block;
+  margin-top: .5rem;
+  margin-right: .5rem;
+  color: var(--md-primary-bg-color);
+  padding: 0.625em 2em;  /* Control button thickness */
+  font-size: 0.8rem;     /* Adjust font size */
+  line-height: 1.4;      /* Control button height */
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 30em) {
+  .tx-hero {
+    margin: 16px 1.4rem;  /* Smaller margins on mobile */
+  }
+  
+  .tx-hero .md-button {
+    padding: 0.5em 1.5em;  /* Slightly smaller padding on mobile */
+    width: auto;          /* Prevent button from stretching */
+    min-width: 200px;     /* Minimum width to maintain button shape */
+  }
+  
+  .tx-hero__content {
+    margin: 2rem auto;    /* Adjust vertical spacing on mobile */
+  }
+}
+
+.tx-hero .md-button--primary {
+  background-color: var(--md-primary-bg-color);
+  color: hsla(280deg, 37%, 48%, 1);
+  border-color: var(--md-primary-bg-color)
+}
+
+.feature-item h2 svg {
+  height: 30px;
+  float: left;
+  margin-right: 10px;
+  transform: translateY(10%);
+}
+
+.top-hr {
+  margin-top: 42px;
+}
+
+.feature-item {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  box-sizing: border-box;
+  padding: 0 15px;
+  word-break: break-word
+}
+
+.feature-item h2 {
+  color: #333;
+  font-weight: 300;
+  font-size: 25px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: normal;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: inherit;
+}
+
+.feature-item p {
+  font-size: 16px;
+  line-height: 1.8em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  color: #111;
+  margin: 0 0 10px;
+  display: block;
+}
+
+@media screen and (max-width:30em) {
+  .tx-hero h1 {
+      font-size: 1.4rem
+  }
+}
+
+/* Hero container */
+.tx-hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 32px 2.8rem;
+  color: var(--md-primary-bg-color);
+  text-align: center;  /* Ensure text is centered */
+}
+
+/* Content container */
+.tx-hero__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* Center all items horizontally */
+  justify-content: center;
+  max-width: 22rem;
+  margin: 3.5rem auto;  /* Center the content container */
+}
+
+/* Image in content */
+.tx-hero__content img {
+  max-width: 100%;  /* Ensure image is responsive */
+  height: auto;
+  margin: 0 auto;  /* Center the image */
+}
+
+.top-hr {
+  width: 100%;
+  display: flex;
+  max-width: 61rem;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 .2rem;
+}
+
+.bottom-hr {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  max-width: 61rem;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 .2rem;
+}
+
+.feature-item {
+  flex: 1;
+  min-width: 0;
+}
+
+.feature-item:hover {
+  background-color: #526cfe47;
+  border-radius: 3px;
+}
+
+.hr {
+border-bottom: 1px solid #eee;
+width: 100%;
+margin: 20px 0;
+}
+
+.text-center {
+text-align: center;
+padding-right: 15px;
+padding-left: 15px;
+margin-right: auto;
+margin-left: auto;
+margin-top: 15px;
+font-family: 'Lato', sans-serif;
+font-size: 23px;
+font-weight: 300;
+padding-bottom: 10px;
+}
+
+.logos {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-flow: row wrap;
+margin: 0 auto;
+}
+
+.logos img {
+flex: 1 1 auto;
+padding: 25px;
+max-height: 130px;
+vertical-align: middle;
+}
+
+.hr-logos {
+margin-top: 0;
+margin-bottom: 30px;
+}
+
+.md-footer-meta__inner {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+margin-top: 1.0rem;
+}
+
+.md-footer-social {
+padding-top: 20px;
 }

@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "bookstack-import"
+version = "0.1.0"
+description = "Scrape a bookstack api and return pages suitable for an mkdocs site"
+authors = ["Sage Peterson"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.13"
+requests = "^2.31.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

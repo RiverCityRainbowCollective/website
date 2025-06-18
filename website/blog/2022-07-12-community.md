@@ -1,6 +1,5 @@
 ---
 title: 2022-07-12-community
-description: 
 published: true
 date: 2025-02-11T20:58:46.110Z
 tags: 

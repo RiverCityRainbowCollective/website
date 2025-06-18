@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+{{ super() }}
+<!-- Emergency Exit Button -->
+<button onclick="emergencyExit()" class="emergency-button" id="emergency-exit" title="No tea, no shade, just fade">
+    Safety Exit
+</button>
+
+<script>
+function emergencyExit() {
+    window.location.href = 'https://www.google.com';
+    window.open('https://www.google.com', '_blank');
+}
+</script>
+{% endblock %}
+{% block footer %}{% endblock %}
