@@ -165,8 +165,8 @@ def get_page_content(session: requests.Session, base_url: str, page_id: int) -> 
         response = session.get(page_endpoint)
         response.raise_for_status()
         page_data = response.json()
-        print(f"page_data for page: {page_data['name']}")
-        print(page_data)
+        print(f"getting page_data for page: {page_data['name']}")
+        # print(page_data)
 
         return Page(
             id=page_data['id'],

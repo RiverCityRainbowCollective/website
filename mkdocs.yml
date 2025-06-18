@@ -2,7 +2,7 @@ site_name: River City Rainbow Collective
 docs_dir: website
 theme:
   name: material
-  logo: assets/logo.svg
+  logo: assets/logo.png
   favicon: assets/favicon.ico
   custom_dir: website/theme_overrides/
   palette:
@@ -30,6 +30,15 @@ extra_css:
   - assets/stylesheets/extra.css
 plugins:
   - search:
+  - minify:
+      minify_html: true
+      htmlmin_opts:
+          remove_comments: true
+      minify_css: true
+      css_files:
+        - assets/stylesheets/extra.css
+        - theme_overrides/home.html
+
 markdown_extensions:
   - attr_list
   - md_in_html
