@@ -6,20 +6,8 @@ theme:
   favicon: assets/favicon.ico
   custom_dir: website/theme_overrides/
   palette:
-    # Palette toggle for light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: rc2-theme
-      primary: purple
-      # toggle:
-      #   icon: material/weather-sunny
-      #   name: Switch to dark mode
-    # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: purple
-      # toggle:
-      #   icon: material/weather-night
-      #   name: Switch to light mode
+    scheme: rc2-theme
+    primary: purple
   features:
     - navigation.instant
     - navigation.tabs
