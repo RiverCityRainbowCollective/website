@@ -1,5 +1,6 @@
 site_name: River City Rainbow Collective
 docs_dir: website
+site_url: https://add-new-wiki.rivercityrainbowcollective.pages.dev/
 theme:
   name: material
   logo: assets/logo.png
@@ -18,6 +19,7 @@ extra_css:
   - assets/stylesheets/extra.css
 plugins:
   - search:
+  - social
   - minify:
       minify_html: true
       htmlmin_opts:
