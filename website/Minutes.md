@@ -20,7 +20,7 @@ We usually have time set aside after official business to socialize and hang out
 
 If you would like to view our meeting minutes, they are available at the link below
 
-[📃Collective Congress Meeting Minutes](https://drive.google.com/drive/folders/1JMEXRerN2T2S7XTk-qAIDvEIENsVa50e?usp=sharing){ .md-button .md-button--primary }
+[📃View Meeting Minutes](https://drive.google.com/drive/folders/1JMEXRerN2T2S7XTk-qAIDvEIENsVa50e?usp=sharing){ .md-button .md-button--primary }
 
 
 ## Agendas
