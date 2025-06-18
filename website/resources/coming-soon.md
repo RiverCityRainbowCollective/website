@@ -1,5 +1,5 @@
 ---
-title: Community Resource Directory Platform
+title: Community Resource Directory
 ---
 # Coming soon!
 We have an exciting, new community resource directory platform in the works!

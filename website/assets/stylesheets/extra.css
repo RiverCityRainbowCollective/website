@@ -64,9 +64,15 @@
   border-color: var(--rc2-mobile-nav-item-color)
 }
 
+/* primary button focus */
+.md-button--primary:focus {
+  background-color: var(--rc2-home-gradient-target) !important;
+  color: #000000 !important;
+  border-color: var(--rc2-home-gradient-target)!important;
+}
+
 [data-md-color-scheme="rc2-theme"] {
   --md-primary-fg-color:        #AA60C8;
-  --md-primary-fg-color:        #9958b4;
   --md-primary-bg-color:        #ffffff;
   --md-primary-fg-color--light: #ffffff;
   --md-default-fg-color--light: #000000;  
@@ -83,16 +89,14 @@
     text-decoration: underline;
     text-decoration-thickness: 2px;
     text-underline-offset: 5px;
-  }header
+  }
 
   .md-nav__item .md-nav__link--active {
     color: var(--rc2-mobile-nav-item-color);
     text-decoration: underline;
     text-decoration-thickness: 2px;
     text-underline-offset: 5px;
-  }
-
-  
+  }  
 
   /* Mobile navigation menu */
   @media screen and (max-width: 76.2em) {
@@ -264,6 +268,7 @@
   pointer-events: auto;
 }
 
+#emergency-exit:focus,
 #emergency-exit:hover {
   background-color: #ff0000;
 }
@@ -306,12 +311,6 @@
   line-height: 1.4;      /* Control button height */
 }
 
-/* .tx-hero .md-button {
-  margin-top: .5rem;
-  margin-right: .5rem;
-  color: var(--md-primary-bg-color);    
-} */
-
 /* Responsive adjustments */
 @media screen and (max-width: 30em) {
   .tx-hero {
@@ -333,13 +332,6 @@
   background-color: var(--md-primary-bg-color);
   color: hsla(280deg, 37%, 48%, 1);
   border-color: var(--md-primary-bg-color)
-}
-
-.tx-hero .md-button:focus,
-.tx-hero .md-button:hover {
-  background-color: var(--md-accent-fg-color);
-  color: var(--md-default-bg-color);
-  border-color: var(--md-accent-fg-color)
 }
 
 .feature-item h2 svg {
@@ -400,12 +392,6 @@
   text-align: center;  /* Ensure text is centered */
 }
 
-/* .tx-hero {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
-
 /* Content container */
 .tx-hero__content {
   display: flex;
@@ -415,20 +401,6 @@
   max-width: 22rem;
   margin: 3.5rem auto;  /* Center the content container */
 }
-
-/* .tx-hero__content {
-  padding-bottom: 1rem;
-  margin: 0 auto;
-} */
-
-/* .tx-hero__content {
-  max-width: 22rem;
-  margin-top: 3.5rem;
-  margin-bottom: 3.5rem;
-  margin-left: 1.0rem;
-  margin-right: 4.0rem;
-  align-items: center;
-} */
 
 /* Image in content */
 .tx-hero__content img {
