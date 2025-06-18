@@ -51,6 +51,7 @@ def create_content_files(shelf_content: ShelfContent, resource_path: str, base_u
                 # Write frontmatter
                 f.write("---\n")
                 f.write(f"title: {page.name}\n")
+                # f.write("description: The content of this page was written by community members like you!")
                 f.write("---\n\n")
                 f.write(markdown_content)
 
