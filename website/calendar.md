@@ -17,30 +17,22 @@ hide:
 <script async type="module" src="https://embed.styledcalendar.com/assets/parent-window.js"></script>
 </div>
 
-## How to Submit Your Event to Our Community Calendar
+## How to Add Your Event
 
-To ensure your event is accurately listed on our community calendar, please follow the process below for submitting a calendar invite. This method helps us streamline event postings and maintain the integrity of our calendar, avoiding the need for manual entry that comes with regular email submissions.
+Want to share your event with the community? Here's how:
 
-#### **Step 1: Create Your Event in Your Calendar App**
+### 1. Make Your Event
+- Open your calendar app (like Google Calendar)
+- Create a new event
+- Add all the important details (time, place, what it's about)
 
-1. Open your preferred calendar application (e.g., Google Calendar, Outlook).
-2. Create a new event, filling in all relevant details such as the event title, date, time, and location. Include a detailed description to inform attendees about the event.
+### 2. Send It to Us
+- Add this email to your event: `rc2communitycalendar@gmail.com`
+- Send the calendar invite
 
-#### **Step 2: Invite Us to Your Event**
+### Important Things to Know
+- Only send calendar invites (not regular emails)
+- If you need to change anything, just update the event and send it again
+- First-time events need to be approved before they show up
 
-1. In the guest or invitee section of your event, enter our dedicated submission email address: `rc2communitycalendar@gmail.com`.
-2. Before sending the invite, ensure that any attachments or additional information you wish attendees to know are included in the event details.
-
-#### **Step 3: Send the Calendar Invite**
-
-- After double-checking the event details for accuracy, send the calendar invite to our submission email address.
-
-#### **Important Notes:**
-
-- **Do Not Send Regular Emails:** Please refrain from sending event details through regular email. Events must be submitted as calendar invites to be considered for inclusion in our community calendar.
-- **Updating Event Details:** If any event details change after you've submitted your calendar invite, please update the event in your calendar app and ensure the updated invite is sent to our submission email address.
-- **First Time Calendar Invites:** If this is the first time you have sent a calendar invitation, it will need to be manually accepted by site administrators before it will show up on the calendar. Once accepted, all future invites will be automatically accepted. 
-
-    
-
-By following these steps, you can efficiently submit your event to be featured on our community calendar, ensuring it reaches our community accurately and effectively. Thank you for contributing to our vibrant community events calendar!
+That's it! Your event will appear on our community calendar once approved. 🎉
