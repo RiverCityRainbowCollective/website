@@ -288,11 +288,6 @@
   font-weight: 700
 }
 
-.tx-hero__content {
-  padding-bottom: 1rem;
-  margin: 0 auto;
-}
-
 .tx-hero__image{
   width:17rem;
   height:17rem;
@@ -300,10 +295,39 @@
   padding-right: 2.5rem;
 }
 
+/* Button styling */
 .tx-hero .md-button {
+  display: inline-block;
   margin-top: .5rem;
   margin-right: .5rem;
-  color: var(--md-primary-bg-color);    }
+  color: var(--md-primary-bg-color);
+  padding: 0.625em 2em;  /* Control button thickness */
+  font-size: 0.8rem;     /* Adjust font size */
+  line-height: 1.4;      /* Control button height */
+}
+
+/* .tx-hero .md-button {
+  margin-top: .5rem;
+  margin-right: .5rem;
+  color: var(--md-primary-bg-color);    
+} */
+
+/* Responsive adjustments */
+@media screen and (max-width: 30em) {
+  .tx-hero {
+    margin: 16px 1.4rem;  /* Smaller margins on mobile */
+  }
+  
+  .tx-hero .md-button {
+    padding: 0.5em 1.5em;  /* Slightly smaller padding on mobile */
+    width: auto;          /* Prevent button from stretching */
+    min-width: 200px;     /* Minimum width to maintain button shape */
+  }
+  
+  .tx-hero__content {
+    margin: 2rem auto;    /* Adjust vertical spacing on mobile */
+  }
+}
 
 .tx-hero .md-button--primary {
   background-color: var(--md-primary-bg-color);
@@ -366,19 +390,51 @@
   }
 }
 
+/* Hero container */
 .tx-hero {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 32px 2.8rem;
+  color: var(--md-primary-bg-color);
+  text-align: center;  /* Ensure text is centered */
 }
 
+/* .tx-hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+/* Content container */
 .tx-hero__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* Center all items horizontally */
+  justify-content: center;
+  max-width: 22rem;
+  margin: 3.5rem auto;  /* Center the content container */
+}
+
+/* .tx-hero__content {
+  padding-bottom: 1rem;
+  margin: 0 auto;
+} */
+
+/* .tx-hero__content {
   max-width: 22rem;
   margin-top: 3.5rem;
   margin-bottom: 3.5rem;
   margin-left: 1.0rem;
   margin-right: 4.0rem;
   align-items: center;
+} */
+
+/* Image in content */
+.tx-hero__content img {
+  max-width: 100%;  /* Ensure image is responsive */
+  height: auto;
+  margin: 0 auto;  /* Center the image */
 }
 
 .top-hr {
