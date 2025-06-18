@@ -1,6 +1,6 @@
 ---
 title: Calendar
-description: 
+description: River City Rainbow Collective's Community Calendar. Sourced by community members like you!
 published: true
 date: 2025-02-11T20:57:54.991Z
 tags: 

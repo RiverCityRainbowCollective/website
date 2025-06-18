@@ -1,6 +1,6 @@
 ---
 title: Minutes
-description: 
+description: Instructions on how to view the meeting minutes
 published: true
 date: 2025-02-11T21:27:18.269Z
 tags: 

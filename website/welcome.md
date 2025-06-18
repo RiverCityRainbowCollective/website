@@ -1,6 +1,6 @@
 ---
-title: Welcome
-description: 
+title: Welcome to the River City Rainbow Collective!
+description: A hybrid community in Central Illinois made by and for LGBTQIA+ people.
 published: true
 date: 2025-02-11T20:58:01.937Z
 tags: 
