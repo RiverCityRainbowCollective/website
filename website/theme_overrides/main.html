@@ -9,8 +9,11 @@
 
 <script>
 function emergencyExit() {
-    window.location.href = 'https://www.google.com';
-    window.open('https://www.google.com', '_blank');
+    // Open and focus new tab first
+    const newTab = window.open('https://www.google.com', '_blank');
+    newTab.focus();
+    // Then redirect current tab
+    window.location.replace('https://www.google.com');
 }
 </script>
 {% endblock %}
