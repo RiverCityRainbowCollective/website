@@ -7,6 +7,9 @@ on:
   
   # Allow manual triggering
   workflow_dispatch:
+
+permissions:
+  contents: write    # Gives write permission to repository contents
   
   # Run on push to main branch (optional)
   push:
