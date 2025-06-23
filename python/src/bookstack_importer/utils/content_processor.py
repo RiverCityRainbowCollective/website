@@ -1,27 +1,117 @@
+"""
+Content processing utilities
+
+Contains functions for processing BookStack content and converting it to markdown.
+"""
+
 import re
 import shutil
 import os
-import subprocess
-import importlib
 import requests
 from urllib.parse import urljoin, urlparse
 from pathlib import Path
 
-bookstack_classes = importlib.import_module('bookstack-classes')
-ShelfContent = bookstack_classes.ShelfContent
+from ..api.models import ShelfContent
+from ..config.navigation import NavigationConfig
+
+
+def ensure_navigation_directories(website_path: str, nav_config: NavigationConfig) -> None:
+    """
+    Ensure all navigation directories exist based on the configuration.
+    Does not remove existing content.
+    """
+    website_path = Path(website_path)
+    
+    # Get all folders that will be created
+    folders = nav_config.get_all_folders()
+    
+    for folder in folders:
+        folder_path = website_path / folder
+        folder_path.mkdir(parents=True, exist_ok=True)
+
 
 def clean_resource_directory(resource_path: str) -> None:
     """
     Clean the resource directory by removing all existing content.
+    DEPRECATED: Use ensure_navigation_directories instead.
     """
     path = Path(resource_path)
     if path.exists():
         shutil.rmtree(path)
     path.mkdir(exist_ok=True)
 
+
+def create_content_files_with_navigation(shelf_content: ShelfContent, website_path: str, base_url: str, nav_config: NavigationConfig) -> None:
+    """
+    Create markdown files and directories from shelf content using navigation configuration.
+    """
+    website_path = Path(website_path)
+    
+    for book in shelf_content.books:
+        # Get the navigation folder for this book
+        nav_folder = nav_config.get_folder_for_book(book.slug)
+        nav_path = website_path / nav_folder
+        
+        # Create book directory within the navigation folder
+        # Special handling for books that match their navigation folder name
+        if book.slug == nav_folder:
+            book_path = nav_path
+        else:
+            book_path = nav_path / book.slug
+            book_path.mkdir(exist_ok=True)
+        
+        print(f"Processing book '{book.name}' (slug: {book.slug}) -> {nav_folder}/{book.slug if book.slug != nav_folder else ''}")
+        
+        # Handle standalone pages
+        for page in book.pages:
+            page_dir = book_path
+            page_file = page_dir / f"{page.slug}.md"
+            # Convert HTML content and download images to the same directory
+            markdown_content = convert_html_to_markdown_with_images(
+                page.html,
+                page.slug,
+                book.slug,
+                base_url,
+                page_dir
+            )
+            
+            with open(page_file, "w", encoding='utf-8') as f:
+                # Write frontmatter
+                f.write("---\n")
+                f.write(f"title: {page.name}\n")
+                f.write("---\n\n")
+                f.write(markdown_content)
+
+        # Handle chapters and their pages
+        for chapter in book.chapters:
+            chapter_path = book_path / chapter.slug
+            chapter_path.mkdir(exist_ok=True)
+            
+            # Create chapter pages
+            for page in chapter.pages:
+                page_dir = chapter_path
+                page_file = page_dir / f"{page.slug}.md"
+                # Convert HTML content and download images to the same directory
+                markdown_content = convert_html_to_markdown_with_images(
+                    page.html,
+                    page.slug,
+                    book.slug,
+                    base_url,
+                    page_dir
+                )
+                
+                with open(page_file, "w", encoding='utf-8') as f:
+                    # Write frontmatter
+                    f.write("---\n")
+                    f.write(f"title: {page.name}\n")
+                    f.write("---\n\n")
+                    f.write(markdown_content)
+
+
 def create_content_files(shelf_content: ShelfContent, resource_path: str, base_url: str) -> None:
     """
     Create markdown files and directories from shelf content.
+    DEPRECATED: Use create_content_files_with_navigation instead.
     """
     base_path = Path(resource_path)
     
@@ -80,6 +170,7 @@ def create_content_files(shelf_content: ShelfContent, resource_path: str, base_u
                     f.write("---\n\n")
                     f.write(markdown_content)
 
+
 def download_image(image_url: str, image_dir: Path, base_url: str) -> str:
     """
     Download an image and return its new local path.
@@ -113,6 +204,7 @@ def download_image(image_url: str, image_dir: Path, base_url: str) -> str:
     except Exception as e:
         print(f"Failed to download image {image_url}: {str(e)}")
         return None
+
 
 def convert_html_to_markdown_with_images(html_content: str, page_slug: str, book_slug: str, base_url: str, page_dir: Path) -> str:
     """
