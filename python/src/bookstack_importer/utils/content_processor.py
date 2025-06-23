@@ -15,9 +15,10 @@ from ..api.models import ShelfContent
 from ..config.navigation import NavigationConfig
 
 
-def clean_navigation_directories(website_path: str, nav_config: NavigationConfig) -> None:
+def ensure_navigation_directories(website_path: str, nav_config: NavigationConfig) -> None:
     """
-    Clean all navigation directories based on the configuration.
+    Ensure all navigation directories exist based on the configuration.
+    Does not remove existing content.
     """
     website_path = Path(website_path)
     
@@ -26,15 +27,13 @@ def clean_navigation_directories(website_path: str, nav_config: NavigationConfig
     
     for folder in folders:
         folder_path = website_path / folder
-        if folder_path.exists():
-            shutil.rmtree(folder_path)
-        folder_path.mkdir(exist_ok=True)
+        folder_path.mkdir(parents=True, exist_ok=True)
 
 
 def clean_resource_directory(resource_path: str) -> None:
     """
     Clean the resource directory by removing all existing content.
-    DEPRECATED: Use clean_navigation_directories instead.
+    DEPRECATED: Use ensure_navigation_directories instead.
     """
     path = Path(resource_path)
     if path.exists():

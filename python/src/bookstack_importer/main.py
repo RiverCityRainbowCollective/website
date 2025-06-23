@@ -9,7 +9,7 @@ from typing import Dict
 from pathlib import Path
 
 from .api import BookStackConfig, create_api_session, get_shelf_contents, BookStackAPIError
-from .utils import clean_navigation_directories, create_content_files_with_navigation
+from .utils import ensure_navigation_directories, create_content_files_with_navigation
 from .config import NavigationConfig
 
 # Try to load environment variables from .env file for local development
@@ -60,9 +60,9 @@ def main(base_url: str, token_id: str, token_secret: str, shelf_slug: str, confi
     print(f"  Book mappings: {nav_config.book_mappings}")
     print(f"  All folders to be created: {nav_config.get_all_folders()}")
     
-    # Clean navigation directories
-    print("Cleaning navigation directories...")
-    clean_navigation_directories(str(website_path), nav_config)
+    # Ensure navigation directories exist
+    print("Ensuring navigation directories exist...")
+    ensure_navigation_directories(str(website_path), nav_config)
 
     # Create new content
     print("Creating content files with navigation...")
