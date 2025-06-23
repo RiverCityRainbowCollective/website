@@ -14,6 +14,7 @@ on:
     paths:
       - 'python/**'
       - '.github/workflows/bookstack-import.yml'
+      - 'mkdocs.yml'
 
 permissions:
   contents: write    # Gives write permission to repository contents
