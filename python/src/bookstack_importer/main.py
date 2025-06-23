@@ -43,7 +43,7 @@ def main(base_url: str, token_id: str, token_secret: str, shelf_slug: str, confi
     shelf_contents = get_shelf_contents(session, base_url, shelf_slug)
 
     # Setup paths
-    repo_path = Path(__file__).parent.parent.parent.parent.parent  # Go up to repo root
+    repo_path = Path(__file__).parent.parent.parent.parent  # Go up to repo root
     print(f"repo_path: {repo_path}")
     website_path = repo_path / "website"
     print(f"website_path: {website_path}")
