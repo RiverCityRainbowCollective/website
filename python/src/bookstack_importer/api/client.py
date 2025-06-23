@@ -1,22 +1,23 @@
+"""
+BookStack API client
+
+Contains functions for interacting with the BookStack API.
+"""
+
 import requests
 from typing import Dict, List, Optional
 from urllib.parse import urljoin
-import importlib
 
-bookstack_classes = importlib.import_module('bookstack-classes')
-BookStackConfig = bookstack_classes.BookStackConfig
-Page = bookstack_classes.Page
-Chapter = bookstack_classes.Chapter
-Book = bookstack_classes.Book
-ShelfContent = bookstack_classes.ShelfContent
+from .models import BookStackConfig, Page, Chapter, Book, ShelfContent
 
 
 class BookStackAPIError(Exception):
     """Custom exception for BookStack API errors"""
     pass
 
+
 def create_api_session(config: BookStackConfig) -> requests.Session:
-    
+    """Create a requests session configured for BookStack API access."""
     if not all([config.base_url, config.token_id, config.token_secret]):
         raise ValueError("All BookStack configuration parameters must be provided")
     
@@ -27,8 +28,9 @@ def create_api_session(config: BookStackConfig) -> requests.Session:
     })
     return session
 
+
 def get_shelf_id_by_slug(session: requests.Session, base_url: str, shelf_slug: str) -> Optional[int]:
-    
+    """Get shelf ID by its slug."""
     endpoint = urljoin(base_url, '/api/shelves')
     
     try:
@@ -36,7 +38,6 @@ def get_shelf_id_by_slug(session: requests.Session, base_url: str, shelf_slug: s
         response = session.get(endpoint)
         response.raise_for_status()
         data = response.json()
-        # print(data)
         
         # Search current page
         for shelf in data.get('data', []):
@@ -48,7 +49,6 @@ def get_shelf_id_by_slug(session: requests.Session, base_url: str, shelf_slug: s
             response = session.get(data['links']['next'])
             response.raise_for_status()
             data = response.json()
-            #print(data)
             
             for shelf in data.get('data', []):
                 if shelf.get('slug') == shelf_slug:
@@ -59,8 +59,9 @@ def get_shelf_id_by_slug(session: requests.Session, base_url: str, shelf_slug: s
     except requests.exceptions.RequestException as e:
         raise BookStackAPIError(f"Failed to fetch shelves: {str(e)}") from e
 
+
 def get_shelf_by_slug(session: requests.Session, base_url: str, shelf_slug: str) -> Optional[Dict]:
-    
+    """Get shelf data by its slug."""
     shelf_id = get_shelf_id_by_slug(session, base_url, shelf_slug)
     if shelf_id is None:
         return None
@@ -77,7 +78,9 @@ def get_shelf_by_slug(session: requests.Session, base_url: str, shelf_slug: str)
             return None
         raise BookStackAPIError(f"Failed to fetch shelf: {str(e)}") from e
 
+
 def get_shelf_contents(session: requests.Session, base_url: str, shelf_slug: str) -> ShelfContent:
+    """Get complete shelf contents including all books, chapters, and pages."""
     shelf = get_shelf_by_slug(session, base_url, shelf_slug)
     if not shelf:
         raise BookStackAPIError(f"Shelf with slug '{shelf_slug}' not found")
@@ -105,10 +108,9 @@ def get_shelf_contents(session: requests.Session, base_url: str, shelf_slug: str
     except requests.exceptions.RequestException as e:
         raise BookStackAPIError(f"Failed to fetch shelf contents: {str(e)}") from e
 
+
 def get_book_contents(session: requests.Session, base_url: str, book_id: int) -> Book:
-    """
-    Get all contents of a book including its chapters and pages with their content.
-    """
+    """Get all contents of a book including its chapters and pages with their content."""
     try:
         # Get book details with all contents in a single call
         book_endpoint = urljoin(base_url, f'/api/books/{book_id}')
@@ -119,7 +121,7 @@ def get_book_contents(session: requests.Session, base_url: str, book_id: int) ->
         chapters = []
         standalone_pages = []
 
-         # Process contents array to separate chapters and pages
+        # Process contents array to separate chapters and pages
         for content in book_data.get('contents', []):
             if content.get('type') == 'chapter':
                 # Create Chapter object with its pages
@@ -158,15 +160,16 @@ def get_book_contents(session: requests.Session, base_url: str, book_id: int) ->
 
     except requests.exceptions.RequestException as e:
         raise BookStackAPIError(f"Failed to fetch book contents: {str(e)}") from e
-    
+
+
 def get_page_content(session: requests.Session, base_url: str, page_id: int) -> Page:
+    """Get full content of a specific page."""
     try:
         page_endpoint = urljoin(base_url, f'/api/pages/{page_id}')
         response = session.get(page_endpoint)
         response.raise_for_status()
         page_data = response.json()
         print(f"getting page_data for page: {page_data['name']}")
-        # print(page_data)
 
         return Page(
             id=page_data['id'],

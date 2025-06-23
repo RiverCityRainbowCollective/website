@@ -1,1 +1,22 @@
 __pycache__
+
+# Environment files
+.env
+python/.env
+
+# Python cache
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db

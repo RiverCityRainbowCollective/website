@@ -1,3 +1,9 @@
+"""
+BookStack API data models
+
+Contains dataclasses representing BookStack entities.
+"""
+
 from dataclasses import dataclass
 from typing import Dict, List, Optional
 
