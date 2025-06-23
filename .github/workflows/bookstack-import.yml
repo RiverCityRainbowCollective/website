@@ -32,6 +32,9 @@ jobs:
       run: |
         cd python
         pip install -r requirements.txt || pip install requests
+
+    - name: Print Directory
+      run: tree
         
     - name: Run BookStack import
       env:
