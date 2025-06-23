@@ -3,7 +3,7 @@ title: Wiki Import Test
 ---
 
 <h2 >Wiki Import Test Title</h2>
-<p >This page will serve to test the capability of importing pages from the wiki to the mkdocs website.</p>
+<p >This page will serve to test the capability of importing pages from the wiki to the mkdocs website. Testing the new actions workflow!</p>
 <h3 >Tests</h3>
 <h4 >Formatting</h4>
 <p ><strong>Bold Text</strong></p>
