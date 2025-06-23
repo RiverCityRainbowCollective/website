@@ -83,12 +83,12 @@
     text-underline-offset: 5px;
   }
 
-  .md-nav__item .md-nav__link--active {
+  /* .md-nav__item .md-nav__link--active {
     color: var(--rc2-mobile-nav-item-color);
     text-decoration: underline;
     text-decoration-thickness: 2px;
     text-underline-offset: 5px;
-  }  
+  }   */
 
   /* Mobile navigation menu */
   @media screen and (max-width: 76.2em) {
