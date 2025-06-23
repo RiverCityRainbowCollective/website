@@ -10,7 +10,7 @@ on:
   
   # Run on push to main branch (optional)
   push:
-    branches: [ main ]
+    branches: [ add-gh-actions ]
     paths:
       - 'python/**'
       - '.github/workflows/bookstack-import.yml'
