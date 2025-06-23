@@ -20,7 +20,7 @@ extra_css:
   - assets/stylesheets/extra.css
 plugins:
   - search:
-  # - social
+  - social
   - awesome-nav
   - minify:
       minify_html: true
