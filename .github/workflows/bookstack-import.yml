@@ -57,6 +57,6 @@ jobs:
         if git diff --staged --quiet; then
           echo "No changes to commit"
         else
-          git commit -m "Update website content from BookStack [skip ci]"
+          git commit -m "Update website content from BookStack"
           git push
         fi
