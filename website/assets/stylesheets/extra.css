@@ -64,8 +64,7 @@
 }
 
 [data-md-color-scheme="rc2-theme"] {
-  /* --md-primary-fg-color:        #AA60C8; */
-  --md-primary-fg-color:        #a746ce;
+  --md-primary-fg-color:        #AA60C8;
   --md-primary-bg-color:        #ffffff;
   --md-primary-fg-color--light: #ffffff;
   --md-default-fg-color--light: #000000;  
