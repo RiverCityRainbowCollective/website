@@ -40,6 +40,7 @@ title: Safe Spaces
 <li><a href="https://faclimbing.com/peoria/"> First Ascent Climbing &amp; Fitness </a>
 <ul>
 <li>927 SW Washington St</li>
+<li>Moderately safe</li>
 </ul>
 </li>
 <li><a href="https://www.litonfirepia.com/"> Lit. on Fire Books </a>
@@ -71,7 +72,16 @@ title: Safe Spaces
 <hr >
 <p >Hair salons, Tattoos, etc.</p>
 <ul >
-<li>Aura Salon</li>
+<li>Aura Salon
+<ul >
+<li><a href="https://www.google.com/maps/place/Aura+Salon/@40.742897,-89.5762394,16.97z/data=!4m6!3m5!1s0x880a5a447e16aaab:0x9daff5a7a8869258!8m2!3d40.7428981!4d-89.5736088!16s%2Fg%2F11hd6mmn4r?hl=en&amp;entry=ttu&amp;g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D">4500 N Prospect Rd Suite 102, Peoria Heights, IL 61616</a></li>
+</ul>
+</li>
+<li>Buzz &amp; Co (electrolysis)
+<ul >
+<li><a href="https://www.google.com/maps/place/The+Buzz+%26+Co/@40.9542198,-90.3861884,17z/data=!3m1!4b1!4m6!3m5!1s0x87e1bd474f260849:0x33bc8294e550d865!8m2!3d40.9542198!4d-90.3836135!16s%2Fg%2F11lgf2f4z8?hl=en&amp;entry=ttu&amp;g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D">562 N Henderson St, Galesburg, IL 61401</a></li>
+</ul>
+</li>
 <li>Dark Horse (tattoos)</li>
 <li>Good Heart Tattoos (Springfield)</li>
 <li>Identity Salon (Peoria Heights)</li>
@@ -80,7 +90,15 @@ title: Safe Spaces
 <li><a href="https://www.mixedpersonalitiestattoos.com/"> Mixed Personalities Tattoo Studio </a></li>
 <li>Rebel Heart Tattoo Studio</li>
 <li><a href="https://www.rebelrootshairhaus.com/"> Rebel Roots Hair Haus </a></li>
-<li>Salon Alchemy</li>
+<li>Salon Alchemy
+<ul >
+<li><a href="https://www.google.com/maps/place/Salon+Alchemy/@40.6958154,-89.6345298,17z/data=!3m1!4b1!4m6!3m5!1s0x880a5eb631684a19:0x460004feb3f3c3e0!8m2!3d40.6958154!4d-89.6319549!16s%2Fg%2F11g81rngsj?hl=en&amp;entry=ttu&amp;g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D">2418 W Rohmann Ave, West Peoria, IL 61604</a></li>
+</ul>
+</li>
+</ul>
+<h2 >Other directories</h2>
+<ul >
+<li class="null"><a href="https://carle.org/getmedia/9920bf99-6396-4296-904b-8ee0fdd53db1/CDEI050825C-Transgender-Care-Directory-Update-WEB.pdf">Carle Health Transgender Care Directory (2024)</a></li>
 </ul>
 <h1 >No-go ⛔ / Unsafe</h1>
 <hr >
