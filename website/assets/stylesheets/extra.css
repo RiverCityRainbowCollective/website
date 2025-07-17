@@ -68,7 +68,7 @@
   --md-primary-bg-color:        #ffffff;
   --md-primary-fg-color--light: #ffffff;
   --md-default-fg-color--light: #000000;  
-  --md-default-bg-color:        #fce7f2;
+  --md-default-bg-color:        #fcecf5;
   --rc2-home-gradient-target:   #73C7C7;
   --rc2-mobile-nav-item-color:  #7c2c9c;
   --rc2-text-highlight:         #97ffff;
@@ -241,6 +241,7 @@
     background-color: var(--rc2-text-highlight);  /* Your purple brand color */
     color: #000000;
   }
+  
   /* Highlighted text for browser compatibility */
   ::-moz-selection {
     background-color: var(--rc2-text-highlight);
@@ -251,12 +252,12 @@
       /* callout styles */
       .callout {
         border-left: 3px solid #bbb;
-          border-left-color: rgb(187, 187, 187);
+        border-left-color: rgb(187, 187, 187);
         border-inline-start: 3px solid #bbb;
         border-inline-end: none;
         background-color: #eee;
         padding: 12px;
-          padding-left: 12px;
+        padding-left: 12px;
         padding-left: 32px;
         padding-inline-start: 32px;
         padding-inline-end: 12px;
@@ -356,8 +357,38 @@
     background-position: center;
   }
 
+  /* Center alignment for text and images */
+  .align-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  img.align-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* header customizations */
+  h2 {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  h4 {
+    font-weight: 500;
+    font-size: 1.25rem;  /* Smaller than h3's 1.5rem */
+  }
 
 }
+/* ----- END OF RC2 THEME ----- */
 
 #emergency-exit {
   position: fixed;

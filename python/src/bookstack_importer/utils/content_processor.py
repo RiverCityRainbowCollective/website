@@ -78,7 +78,7 @@ def create_content_files_with_navigation(shelf_content: ShelfContent, website_pa
             with open(page_file, "w", encoding='utf-8') as f:
                 # Write frontmatter
                 f.write("---\n")
-                f.write(f"title: {page.name}\n")
+                f.write(f'title: "{page.name}"\n')
                 f.write("---\n\n")
                 f.write(markdown_content)
 
