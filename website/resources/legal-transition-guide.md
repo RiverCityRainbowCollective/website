@@ -1,5 +1,5 @@
 ---
-title: Legal Transition Guide
+title: "Legal Transition Guide"
 ---
 
 <p ><br></p>

@@ -1,5 +1,5 @@
 ---
-title: Safe Spaces
+title: "Safe Spaces"
 ---
 
 <p >Recommended by members of the <a href="https://rivercityrainbowcollective.org"> River City Rainbow Collective </a></p>
