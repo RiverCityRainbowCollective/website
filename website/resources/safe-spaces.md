@@ -55,7 +55,11 @@ title: "Safe Spaces"
 </ul>
 </li>
 <li>Rhythm Kitchen</li>
-<li><a href="https://www.riverkittycafe.com/"> River Kitty Cafe </a></li>
+<li><a href="https://www.riverkittycafe.com/"> River Kitty Cafe </a>
+<ul >
+<li>The Wi-Fi password is all caps, like on the sign</li>
+</ul>
+</li>
 <li>Sparky's (especially Friday night karaoke)</li>
 <li>Tails of a Bookworm</li>
 <li>Tartan Inn</li>
@@ -95,6 +99,7 @@ title: "Safe Spaces"
 <li><a href="https://www.google.com/maps/place/Salon+Alchemy/@40.6958154,-89.6345298,17z/data=!3m1!4b1!4m6!3m5!1s0x880a5eb631684a19:0x460004feb3f3c3e0!8m2!3d40.6958154!4d-89.6319549!16s%2Fg%2F11g81rngsj?hl=en&amp;entry=ttu&amp;g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D">2418 W Rohmann Ave, West Peoria, IL 61604</a></li>
 </ul>
 </li>
+<li>Stonewall Studio in Bloomington</li>
 </ul>
 <h2 >Other directories</h2>
 <ul >
