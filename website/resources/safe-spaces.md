@@ -43,6 +43,11 @@ title: "Safe Spaces"
 <li>Moderately safe</li>
 </ul>
 </li>
+<li>Image Dei church
+<ul >
+<li>(Address and details go here)</li>
+</ul>
+</li>
 <li><a href="https://www.litonfirepia.com/"> Lit. on Fire Books </a>
 <ul>
 <li><a href="https://www.openstreetmap.org/node/12861584801"> 🗺️ 712 West Main Street </a></li>
