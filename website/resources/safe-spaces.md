@@ -79,7 +79,7 @@ title: "Safe Spaces"
 </ul>
 <h1 >Peoria, Il Safe Services 🏳️‍🌈</h1>
 <hr >
-<p >Hair salons, Tattoos, etc.</p>
+<p >Hair salons, Tattoos, mental health etc.</p>
 <ul >
 <li>Aura Salon
 <ul >
@@ -95,6 +95,13 @@ title: "Safe Spaces"
 <li>Good Heart Tattoos (Springfield)</li>
 <li>Identity Salon (Peoria Heights)</li>
 <li>In Bloom Tattoo Collective</li>
+<li>Life Balance Counseling (Amy is expanding the existing LGBTQ+-friendly care at Life Balance at this new address - August 2025)
+<ul >
+<li>1605 W. Candletree Dr., Suite 1, Peoria, IL, 61614</li>
+<li><a href="mailto:amy@lifebalancecounselingpeoria.com">amy@lifebalancecounselingpeoria.com</a></li>
+<li><a href="tel:+13096760538">(309) 676-0538</a></li>
+</ul>
+</li>
 <li>Matriarch</li>
 <li><a href="https://www.mixedpersonalitiestattoos.com/"> Mixed Personalities Tattoo Studio </a></li>
 <li>Rebel Heart Tattoo Studio</li>
