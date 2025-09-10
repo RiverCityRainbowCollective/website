@@ -119,8 +119,13 @@ title: "Safe Spaces"
 </ul>
 <h1 >No-go ⛔ / Unsafe</h1>
 <hr >
-<p >Places that are known to be unfriendly</p>
+<p >Places that are unfriendly or otherwise boycotted</p>
 <ul >
+<li>No-Go ⛔ Jim's Steakhouse in Downtown
+<ul >
+<li>Hosted Tucker Carlson in September 2025 and posted about it on social media</li>
+</ul>
+</li>
 <li>No-Go ⛔ Saddle Up Dance Club
 <ul>
 <li>Google reviews suggest the Saddle Up ownership is racist and homophobic</li>
