@@ -43,7 +43,7 @@ title: "Safe Spaces"
 <li>Moderately safe</li>
 </ul>
 </li>
-<li>Image Dei church
+<li>Imago Dei church
 <ul >
 <li>(Address and details go here)</li>
 </ul>
