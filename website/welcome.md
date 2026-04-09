@@ -28,10 +28,13 @@ hide:
 
 ### Ready to Join? 
 
+<!--
 [✨Join Our Discord✨](https://discord.gg/wUKaWazEn6#){ .md-button .md-button--primary }
+-->
+Access to this community is temporarily invite only, please ask around your circle to find someone already in the server to vouch for you. Our plan is resume open invites shortly. 
 
 ### Meet Up:
-We get together twice every month at our local LGBTQIA Community Center. We talk about what's going on and what we can do to help each other and our community. Come hang out with us in person! (Hint: Check out the Calendar for `Collective Congress`)
+We get together once every month at our local LGBTQIA Community Center. We talk about what's going on and what we can do to help each other and our community. Come hang out with us in person! (Hint: Check out the Calendar for `Collective Congress`)
 
 ---
 
